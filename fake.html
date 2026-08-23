@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="fake.css" />
+    <title>REQdocs</title>
+  </head>
+  <body>
+    <div id="header">
+      <h1>REQdocs</h1>
+    </div>
+    <nav><ul id="sample">
+      <li class="dropdown">
+      <a onclick="sho('op2')"  href="#" class="dropbtn">Home</a>
+      </li>
+      <li class="dropdown"><a onclick="sho('op3')" href="#" class="dropbtn">About</a></li>
+      <li class="dropdown">
+    <a onclick="sho('op1')" href="#">REQdocs</a>
+  </li>
+</ul></nav>
+<div id ="m">
+  <h1>Welcome to REQdocs</h1>
+  <div id="H"><h2>REQdocs is an informative website.It guides you to to get the info about various proccess of applying different applications for creating or updating it.</h2>
+ </div></div>
+ <div id='op3' style="display:none;">
+<h1>Group Members</h1>
+
+<ol>
+  <p>K ROHIT</p>
+  
+</ol>
+<h1>CONTACT DETAILS</h1>
+<p>abc@gmail.com   </p><p>phno:1800--------</p>
+</div>
+ <div id=op2 style="display:none;">
+  <div id="doc">
+    <img id="g" src="images/pngegg.png" alt="" style="display:inline-block;">
+  </div>
+  <div id="qoute" >
+      <h1>“A Wise Choice can Save Your Time ,Choose Wisely,Choose REQdocs”</h1>
+  </div>
+  <div id="pos">
+    <div id="explore">
+        Let us get into the webpage <br>
+            and explore it!!!<br>
+            categories :-Personal,Home,Banking,Transport
+            -------------------------------<br>
+            -------------------------------<br>
+        </p>
+        <button onclick="sho('op1')" id="explore_btn">Explore</button>
+        <div id="btn_box" style="display:none;">
+        <button><a >Personal</a></button>
+        <button>btn2</button>
+        <button>btn3</button>
+        <button>btn4</button>
+    </div>
+    </div>
+    </div>
+</div>
+<div id=op1 style="display: none;">
+  <div id="categories"><p>Categories</p></div>
+  <ul id="sample">
+    <li class="dropdown">
+      <a id="P" onclick="personal()" href="#" class="dropbtn">Personal</a>
+      <div class="dropdown-content">
+        <div class="dropdown1">
+        <a href="#" class="dropbtn">Adhaar Card</a>
+        <div class="dropdown-content3">
+          <a onclick="show('operation1')" href="#">Enrollment 0-5</a>
+          <a onclick="show('operation2')" href="#">Enrollment above 5</a>
+          <a onclick="show('operation3')" href="#">update</a>
+        </div>
+      </div>
+        <div class="dropdown1">
+          <a href="#" class="dropbtn">Pan Card</a>
+          <div class="dropdown-content4">
+            <a onclick="show('operation4')" href="#">New pan</a>
+            <a onclick="show('operation5')" href="#">update pan</a>
+          </div>
+        </div>
+        <div class="dropdown1">
+          <a href="#" class="dropbtn">Voter ID</a>
+          <div class="dropdown-content4">
+            <a onclick="show('operation6')" href="#">New voterID</a>
+            <a onclick="show('operation7')" href="#">update voterID</a>
+          </div>
+        </div>
+        <a onclick="show('operation18')" href="#">Caste</a>
+        <a onclick="show('operation19')" href="#">OBC</a>
+        <a onclick="show('operation20')" href="#">DOB</a>
+      </div>
+    </li>
+    <li class="dropdown">
+      <a onclick="home()" href="#" class="dropbtn">Home(RQ)</a>
+      <div class="dropdown-content">
+        <a onclick="show('operation8')" href="#">Electricity Q</a>
+        <a onclick="show('operation9')" href="#">Gas Q</a>
+       
+      </div>
+    </li>
+    <li class="dropdown" >
+      <a onclick="banking()" href="#" class="dropbtn">Banking(RQ)</a>
+      <div class="dropdown-content">
+        <a onclick="show('operation11')" href="#">Opening Account</a>
+        <a onclick="show('operation12')" href="#">Changing details in Account</a>
+        
+        
+      </div>
+    </li>
+    <li class="dropdown">
+      <a onclick="transport()" href="#" class="dropbtn">Transport</a>
+      <div class="dropdown-content">
+        <a onclick="show('operation15')" href="#">Driving Licence</a>
+       
+      </div>
+    </li>
+  </ul>
+  <div id="main">
+    <h2>Select the Required Category from above</h2>
+  </div>
+   
+    <div id=operation1 style="display: none;">
+      <h1>Required documents</h1>
+      <h2>Enrollment through HOF</h2>
+      <ol start="1">
+        <li>Adhaar of both the parents</li>
+        <li>DOB</li>
+      </ol>
+      <h2>Enrollment through documents</h2>
+      <ol>
+        <li>Uidai certification</li>
+      </ol>
+      <h1>Form</h1>
+      <div style="text-align: center;">
+      <img src="images/pre12_page-0001.jpg" alt="Adhaar Enrollment Below Five Years" style="display: flex;">
+      </div>
+      <h1>Steps to instructions</h1>
+      <ul >
+        <li>2- Enrolment Type
+        </li>
+        <li>3- Aadhaar Number(only for update)
+        </li>
+        <li>4- Full Name of applicant
+        </li>
+        <li>5- Name of Parent or Guardian</li>
+        <li>6,7,8,9,10,11,12,13,14- Address Details
+        </li>
+        <li>15- Date of Birth of Applicant
+        </li>
+        <li>16- Signature of Applicant
+        </li>
+        <li>17- Applicant recent colour photo
+        </li>
+        <li>18- Name of Certifier
+        </li>
+        <li>19- Designation
+        </li>
+        <li>20- Office Address
+        </li>
+        <li>21- Contact Number
+        </li>
+        <li>22- Signature & Stamp of the Certifier</li>
+        
+      </ul>
+      <p class="p1"></p>
+      <p class="p2"></p>
+    </div>
+    <div id=operation2 style="display: none;">
+      <h1>Required documents</h1>
+      <ol start="1">
+        <li>POI-Proof of Identity
+        </li>
+        <li>POR-Proof of Relationship</li>
+        <li>DOB-Date of Birth
+        </li>
+        <li>POA-Proof of Address</li>
+      </ol>
+      <h1>Form</h1>
+      <div style="text-align: center;">
+      <img src="images/Screenshot from 2024-02-03 10-51-39.png" alt="" style="display:flex;">
+      <img src="images/Screenshot from 2024-02-03 10-52-02.png" alt=""style="display: flex;">
+      <img src="images/Screenshot from 2024-02-03 10-52-28.png" alt="" style="display: flex;">
+      <img src="images/Screenshot from 2024-02-03 10-52-39.png" alt="" style="display: flex;">
+      <img src="images/adhaar enrolment_page-0001.jpg" alt="Adhaar Enrollment Above Five Years" style="display: flex;">
+    </div>
+      <h1>Steps to instructions</h1>
+      <ul >
+        <li>2- Enrolment Type
+        </li>
+        <li>3- Aadhaar Number(only for update)
+        </li>
+        <li>4- Full Name of applicant
+        </li>
+        <li>5- Name of Parent or Guardian</li>
+        <li>6,7,8,9,10,11,12,13,14- Address Details
+        </li>
+        <li>15- Date of Birth of Applicant
+        </li>
+        <li>16- Signature of Applicant
+        </li>
+        <li>17- Applicant recent colour photo
+        </li>
+        <li>18- Name of Certifier
+        </li>
+        <li>19- Designation
+        </li>
+        <li>20- Office Address
+        </li>
+        <li>21- Contact Number
+        </li>
+        <li>22- Signature & Stamp of the Certifier</li>
+      </ul>
+        
+    </div>
+    <div id=operation3 style="display: none;">
+      <h1>Required documents</h1>
+      <ol start="1">
+        <li>POI-Proof of Identity
+        </li>
+        <li>POR-Proof of Relationship</li>
+        <li>DOB-Date of Birth
+        </li>
+        <li>POA-Proof of Address</li>
+      </ol>
+      <h1>Form</h1>
+      <h1>Anyone proof of above credintials</h1>
+      <div style="text-align: center;">
+        <img src="images/reqdoc.jpg" alt="Adhaar update form" style="display: flex;"></div>
+      <div style="text-align: center;">
+      <img src="images/update_page-0001.jpg" alt="Adhaar update form" style="display: flex;"></div>
+      <h1>Steps to instructions</h1>
+      <div style="text-align: center;">
+        <img src="images/WhatsApp Image 2024-02-03 at 12.50.49_faaa436d.jpg" alt="Adhaar update form" style="display: flex;"></div>
+        <h1>Head of department Self declaration form (updating only address)</h1>
+      <div style="text-align: center;">
+        <img src="images/WhatsApp Image 2024-02-03 at 11.07.15 AM.jpeg" alt="Adhaar Enrollment Below Five Years" style="display: flex;">
+        </div>
+      <h1>Steps to instructions</h1>
+      <ol start="1">
+        <li>Name of Head Of Family(HOF) in Aadhaar
+        </li>
+        <li>Fill Address as per Aadhaar of HOF
+        </li>
+        <li>Aadhaar Number of HOF
+        </li>
+        <li>Applicant Name
+        </li>
+        <li> Aadhaar number of Applicant
+        </li>
+        <li>Relation of HOF with applicant
+        </li>
+        <li>Applicant Name</li>
+        <li>Aadhaar number of Applicant</li>
+        <li> Name & Signature of Head of the Family (HoF)</li>
+        
+
+      </ol>
+    </div>
+    <div id=operation4 style="display: none;">
+      <h1>Required documents</h1>
+      <ol><li>Proofof Address:--I> Copy of the following documents of not more than three months old-a> Electricity Bill Or b> Landline telephone or broadband connection bill Or c> Water bill Or d > Consumer gas connection card or book or piped gas bill Or e>Bank Account Statement or as per Note2 Or f>Depository Account Statement Org> Credit Card Statement Or II> Copy of-a> Post office passbook having address of the applicant Or b> Passport Or e Passport of the spouse Or d>Elector's photo identity card Or e> Latest property tax assessment order Or f> Driving License Or g> Domicile Certificate issued by the Government Or h> AADHAAR Card issued by the Unique Identification Authority of India Or i> Allotment letter of accommodation issued by the Central Government or State Government of not more than three years old Or j>Property registration document Or III>Certificate of Address in original signed by Member of Parliament or Member of Legislative Assembly or Municipal Councillor or a Gazetted Officer as the case may be OrIV> Employer certificate in original.</li>
+      <li>Proof of Date of Birth: Copy of:-a>Birth Certificate issued by the Municipal Authority or any office authorized to issue Birth and Death Certificate by the Registrar of Birth and Deaths or the Indian Consulate as defined in clause (d) of sub section(1) of section 2 of the Citizenship Act, 1955(57 of 1955); Or b> Pension payment order; Or c> Marriage Certificate issued by Registrar of Marriages; Or d> Matriculation Certificate; or marksheet of recognized board; or ePassport or f>Driving license or gDomicile certificate issued by the Government or h>Aadhar Card issued by Unique Identification Authority of India or i>Elector's Photo identity card or J>Photo identity card issued by Central Government or State Government or central public section undertaking or state public sector undertaking or K> Central Government Health Service Scheme photo card or Ex-servicemen Contributory Health Scheme Photo card or
+
+        L>Affidavit sworn before a magistrate stating the date of birth. For Proof of Issuance of PAN (Copy Of):-i> PAN Card ii> PAN Allotment Letter (No other documentis acceptable as proof of issuance of PAN. If proof is not provided then</li>
+        <li>Proof of Identity: 1>Copy of -a> Elector's photo identity card Or b> Ration card having photograph of the applicant; Or c> Passport; Or d> Driving license Or e> Arm's license; Or f> AADHAAR Card issued by the Unique Identification Authority of India Or g> Photo identity card issued by the Central Government or a State Government or a Public Sector Undertaking Or h> Pensioner Card having photograph of the applicant Or i> Central Government Health Scheme Card or Ex-servicemen Contributory Health Scheme photo card; Or II > Certificate of identity in original signed by a Member of Parliament or Member of Legislative Assembly or Municipal Councillor or a Gazetted Officer, as the case may be Or III Bank certificate in original on letter head from the branch (along with name and stamp of the issuing officer) containing duly attested photograph and bank account number of the applicant.</li>
+
+      </ol>
+      <h1>Form</h1>
+      <div style="text-align: center;">
+      <img src="images/49A_Form_Updated_page-0001.jpg" alt="" style="display: flex;">
+      <img src="images/49A_Form_Updated_page-0002.jpg" alt="" style="display: flex;"></div>
+      <h1>Steps to instructions</h1>
+      <ul>
+       <p>1-last and first name</p>
+       <p>2- we can leave it as empty one</p>
+        <p>3-if yes click yes otherwise no  ie..have you known by other name
+               and if yes</p>
+               <li>- select appropriate gender and age</li>
+                <li>- write last and first name </li>
+                  <p>4-fill the gender of the applicant</p>
+                    <p>5-enter applicants DOB</p>
+                      <p>6-enter the father's and mother's</p>
+                        <li>First,last and middle name( if required)</li>
+                          <p>7-if your are an employee ( fill your both office and residential address)</p>
+                            <li>Otherwise
+(Fill only the office address)</li>
+<p>8-tick mark for the address where you are easily available for communication</p>
+  <p>9-enter 
+  Country code - +91
+  In the PAN application form, the "Area Code" or "STD Code" refers to the Standard Trunk Dialing (STD) code of your area or the area code of your telephone number. It is a part of the address details.If you are providing a telephone number, you should include the STD code. The STD code is a series of digits that represent the geographical area of your phone number. It is typically found at the beginning of a landline number.For example, if your landline number is (0123) 4567890, then "0123" is the STD code. You would write "0123" in the "Area Code" or "STD Code" column of the PAN application form.If you do not have a landline number or an applicable STD code, you can leave this field blank. It's essential to provide accurate and relevant information based on your circumstances. Always refer to the official guidelines or contact the relevant authorities if you have any uncertainties.
+- enter your email id</p>
+
+<p>10-In the PAN application form, the "Status of Applicant" refers to your status or role in the application. You should choose the appropriate option based on your situation. Common options include:</p>
+
+  <li>1. *Individual:* Choose this option if you are applying for a PAN card as an individual.</li>
+
+    <li>2. *Hindu Undivided Family (HUF):* Select this if you are applying on behalf of a Hindu Undivided Family.</li>
+
+      <li>3. *Company:* Choose this if you are applying for a PAN for a company or business.</li>
+
+        <li>4. *Partnership Firm:* Select this if the application is for a partnership firm.</li>
+
+          <li>5. *Association of Persons (AOP):* Applicable if you are representing an Association of Persons.</li>
+
+            <li>6. *Trust:* Use this option if you are applying on behalf of a trust.</li>
+
+              <li>7. *Body of Individuals (BOI):* Choose this if you are representing a Body of Individuals.</li>
+
+                <li>8. *Local Authority:* Applicable if the application is for a local authority.</li>
+
+                  <li>9. *Statutory Body:* Select this if you are applying for a statutory body.</li>
+
+                    <li>10. *Limited Liability Partnership (LLP):* Appropriate if the application is for an LLP.</li>
+
+<li>Choose the option that best describes your status or the entity for which you are applying for a PAN. Ensure that the information you provide is accurate and matches the supporting documents you submit with the application.</li>
+
+<p>11-In the PAN application form, the "Registration Number" for companies, firms, LLPs, etc., refers to the unique identification number assigned to these entities by the respective regulatory authorities. Depending on the type of entity, the registration number could be different:</p>
+
+  <li>1. *For Companies:* Enter the Corporate Identity Number (CIN) issued by the Ministry of Corporate Affairs.</li>
+
+    <li>2. *For Firms:* Enter the Firm's registration number issued by the Registrar of Firms.</li>
+
+      <li>3. *For LLPs (Limited Liability Partnerships):* Enter the LLP Identification Number (LLPIN) issued by the Ministry of Corporate Affairs.</li>
+
+        <li>Ensure you enter the correct and valid registration number corresponding to the type of entity for which you are applying for a PAN. This information is crucial for accurate identification and processing of your PAN application.
+
+If you are uncertain about the specific registration number, refer to the official documents or certificates provided during the registration of the entity. If in doubt, consider seeking professional advice or contacting the relevant regulatory authorities for clarification. Accuracy in providing this information is important to avoid delays or issues in the PAN application process.</li>
+      </ul>
+    </div>
+    <div id=operation5 style="display: none;">
+      <h1>Required documents</h1>
+      <img src="images/pan-update.jpg" alt="" style="display:flex;">
+      <h1>Form :</h1>
+      <div style="text-align: center;">
+      <img src="images/CSF_Form_Updated_page-0001.jpg" style="display: flex;">
+      </div>
+      <h1>Steps to instructions</h1>
+      <img src="images/INSTRUCTIONS 1.jpg" alt="" style="display: flex;">
+      <img src="images/INSTRUCTIONS 2.jpg" alt="" style="display: flex;">
+    </div>
+    <div id=operation6 style="display: none;">
+      <h1>Required documents</h1>
+      <ul>
+      <li>To fill up the Voter ID application form in Andhra Pradesh, you typically need the following documents:</li>
+
+        <li>1. *Proof of Identity:* You can use documents like Aadhar card, passport, driving license, or any other government-issued photo ID.</li>
+        
+       <li> 2. *Proof of Address:* Documents such as Aadhar card, passport, utility bills (water, electricity, gas), or rent agreement can serve as proof of address.</li>
+        
+       <li> 3. *Proof of Age:* You may need to provide a document verifying your age, such as a birth certificate or school leaving certificate.</li>
+        
+        <li>*Passport-sized Photograph:* Attach a recent passport-sized photograph along with the application form.</li>
+        
+        <li>5. *Form 6:* This is the standard application form for voter registration. You can find it on the official website of the Chief Electoral Officer of Andhra Pradesh or the National Voter's Service Portal.</li>
+        
+        <p>Ensure that you have photocopies of these documents to submit along with the application form. It's recommended to check the official electoral website or visit the nearest Electoral Registration Office for the latest and specific requirements.
+      </p></ul>
+      <div style="text-align: center;">
+      <img src="images/Screenshot from 2024-02-03 11-07-38.png" alt="" style="display: flex;">
+      <img src="images/Screenshot from 2024-02-03 11-08-03.png" alt="" style="display: flex;">
+      </div>
+      <h1>Steps to instructions</h1>
+      <ul >
+        <li>1(a). Full Name of the Applicant in official language of that state</li>
+        <li>1(b). Full name of Applicant in English Block leters</li>
+        <li>2(a). Full name of any one relative mentioned in official language of that state </li>
+        <li>2(b). Full name of any one relative mentioned in English Block leters</li>
+        <li>3. Mobile number (optional)</li>
+        <li>4. Email id (optional)</li>
+        <li>5. Tick box (a) if you have Aadhaar Number else tick (b)</li>
+        <li>6. choose your Gender </li>
+        <li>7(a). Enter DOB</li>
+        <li>7(b). self attest any one of the given document as age proof</li>
+        <li>8(a). Enter Full Adress</li>
+        <li>8(b). self attest any one of the given document as proof of address</li>
+        <li>9.if applicant have any disability mention it</li>
+        <li>10. Enter the details of family member who are already enrolled at current address</li>
+      </ul>
+    </div>
+    <div id=operation7 style="display: none;">
+      <h1>Required documents</h1>
+      <p>Application form for correction (Form 8) available online or at your nearest Electoral Registration Office.</p>
+       <ol><li> Proof of identity document such as Aadhar card, passport, driving license, PAN card, etc.</li>
+        <li> Proof of address document such as passport, driving license, Aadhar card, utility bills, etc.</li>
+          <li>Existing voter ID card (if available).</li>
+            <li>Recent passport-sized photograph.</li></ol>
+       <p>Make sure to verify the exact requirements with your local Election Commission office as they may vary slightly depending on your state or union territory.
+      </p>
+      <h1>Form :</h1>
+      <div style="text-align: center;">
+      <img src="images/Screenshot from 2024-02-03 11-11-43.png" alt="" style="display: flex;">
+      <img src="images/Screenshot from 2024-02-03 11-11-50.png" alt="" style="display: flex;">
+    </div>
+      <h1>Steps to instructions</h1>
+      <ul>
+        <li>1. General Instruction:-
+<p>(a) The application can be made by a registered/enrolled elector for shifting of residence, or
+for correction of entries or for issue of replacement EPIC or for marking as PwD.</p>
+<p>(b) Incase of approval of application by Electoral Registration Officer (ERO) for shifting of
+residence, correction of entries and issue of replacement EPIC without correction, a new
+replacement EPIC will be issued to the applicant and he has to return his old EPIC to the
+Electoral Registration Officer immediately.</p></li>
+<li>2. Item No. I (Name of the applicant)- The applicant shall mention his name, EPIC no.,
+Aadhaar number, mobile number and email id of self or relative mentioned therein. Aadhaar
+Number should be furnished for the purpose of authentication of entries. If the applicant does
+not have Aadhaar number, the same may be mentioned in box at item I (b).</li>
+<li>3. Item No. II (Option for application)- The applicant has to tick any one of the options for
+making application and fill the details in the relevant section of the application. All other
+sections which are not relevant should be struck off.</li>
+<li>4. Application for shifting of residence-<p>(a) The application has to be made to the Electoral
+Registration Officer of the constituency in which the new address of the applicant is located.</p>
+<p>(b) The applicant has to mention his new address, where he has shifted to and presently
+staying and attach a self-attested copy of any one of the mentioned documents as address
+proof in his own name or in name of his parents/spouse. He has to tick the mentioned
+document which he has given as address proof. Mentioned document will ensure speedy
+delivery of services. If he does not possess any of the mentioned documents, he has to
+mention name of the other document given for address proof in the blank space.</p></li>
+<li>5. Application for correction of entries in existing roll - <p>(a) If an applicant intends to get any
+existing entry relating to him in the electoral roll corrected, he has to tick in the appropriate
+box and attach the document in the support of his claim. The name of the document must be
+mentioned in the blank space given.</p></li>
+<p>(b) In case, the applicant desires to change his photograph, he has to paste a recent good
+quality passport size unsigned colour photograph (4.5 cm X 3.5 cm) with white background,
+in the box meant for it.</p>
+<li>6. Application for replacement EPIC without correction- The applicant shall put a tick in
+appropriate box seeking for a replacement EPIC. He shall return his mutilated/old EPIC or
+submit a copy of FIR/Police report for lost EPIC.</li>
+<li>7. DECLARATION - The applicant must give a 'DECLARATION' that the facts and
+particulars mentioned in the application are true to the best of his/her knowledge and belief.</li>
+</ul>
+    </div>
+    <div id=operation8 style="display: none;">
+      <h1>Required documents</h1>
+      <p>you need to know SF no to know more follow Steps of instruction
+      </p>
+      <h1>Form</h1>
+      <img src="images/elc 1.jpg" alt="">
+      <img src="images/ele2.jpg" alt="">
+      <h1>Steps to instructions</h1>
+     <p>First choose whether it is for which purpose</p>
+      <p>And also choose which type of connection is required</p>
+
+        <p>1) enter the appilicants name
+          And write father's or husband's name</p>
+            <p>2) enter the location of premises for which the connection is required:
+   In the column of SF no
+you should write the Service Number (SF No) for Agricultural Service Connections (SC's). This number is typically provided by the utility company and serves as a unique identifier for the agricultural service connection. If you are unsure about your SF No for Agricultural Service Connections, you may need to contact the utility company for clarification or assistance.</p>
+<p>3a)In the column of "Nature of Supply" on the application for supply of electricity at low tension for streetlight, etc., purposes in the Eastern Power Distribution Company of A.P Ltd, you should specify the type of supply required. This could include categories such as "Single Phase" or "Three Phase" depending on the requirements of your streetlight or other purposes. If you're unsure about the specific nature of supply needed, you may want to consult with the utility company or relevant authorities for guidance.</p>
+  <p>3b)In the column for "Contracted Load Requested" on the application for supply of electricity at low tension for streetlight, etc., purposes in the Eastern Power Distribution Company of A.P Ltd, you should specify the total amount of electrical load (in kilowatts or kW) that you are requesting for the purpose of streetlighting or other designated purposes. This contracted load represents the maximum amount of power that you are requesting to be made available to your streetlight or other low tension purposes. Make sure to accurately determine your load requirements based on the intended usage and any regulations or guidelines provided by the utility company. If you're unsure about the appropriate contracted load, you may want to seek assistance from the utility company or a qualified electrician.</p>
+    <p>3c)In the column for "Additional Loads" on the application for supply of electricity at low tension for streetlight, etc., purposes in the Eastern Power Distribution Company of A.P Ltd, you should specify any additional electrical loads (in kilowatts or kW) that you anticipate beyond the contracted load requested. This could include supplementary loads required for future expansion or additional equipment related to streetlighting or other designated purposes. Make sure to accurately estimate any additional loads needed to ensure sufficient capacity and compliance with regulations. If you're unsure about the appropriate additional loads, you may want to seek guidance from the utility company or a qualified electrician.</p>
+      <p>4a)In the column for "Category Changes" on the application for supply of electricity at low tension for streetlight, etc., purposes in the Eastern Power Distribution Company of A.P Ltd, you should indicate any changes in the category of supply requested. This could include modifications or updates to the type or purpose of the electrical supply, such as changes in the nature of the streetlighting project or adjustments to the types of equipment being powered. If there are no changes to the category of supply, you can simply write "No changes" or leave the column blank. Be sure to provide accurate and clear information regarding any requested changes to ensure proper processing of the application.</p>
+        <p>4b)In the column for "Name Transfers" on the application for supply of electricity at low tension for streetlight, etc., purposes in the Eastern Power Distribution Company of A.P Ltd, you should indicate if there are any changes in ownership or responsibility for the electricity supply connection. This could include transferring the ownership or responsibility from one entity or individual to another. If there are no name transfers involved, you can simply write "No transfers" or leave the column blank. Be sure to provide accurate information regarding any name transfers to facilitate proper processing of the application.</p>
+          <p>5)In the "Social Group" column on the application for supply of electricity at low tension for streetlight, etc., purposes in the Eastern Power Distribution Company of A.P Ltd, you should specify the social group or category to which the applicant belongs. This could include categories such as General, Scheduled Caste (SC), Scheduled Tribe (ST), Other Backward Class (OBC), or any other relevant social group classification. Provide accurate information based on the applicant's social group identity. If unsure, you may refer to official documents or consult with relevant authorities for guidance.</p>
+
+          <p>Enter the date of registration and For the "Social Group" column on the application form, typically no specific sign or symbol is required. You would simply write the appropriate social group category, such as "General," "SC," "ST," "OBC," or any other relevant designation, directly in the column provided on the form. If the form specifically requests a symbol or abbreviation for each social group category, then you would use the designated symbol or abbreviation as instructed on the form. Otherwise, you would write out the full name of the social group category</p>
+
+
+ <p>And finally Enter the signature of appilicant at undertaking coloumn</p>
+    </div>
+    <div id=operation9 style="display: none;">
+      <h1>Required documents</h1>
+      <p>points
+      </p>
+      <h1>Form</h1>
+      <img src="images/gas.jpg" alt="">
+      <h1>Steps to instructions</h1>
+     <ol> LPG DISTRIBUTOR DETAILS:
+
+<li>LPG gas type:
+In the column of "LPG Gas Type" on the New Gas Connection Application Form for LPG distributor details, you should specify the type of LPG gas required. This could include options such as "Domestic" or "Commercial," indicating whether the gas is intended for household use or for commercial purposes such as restaurants, hotels, or industrial use. Choose the appropriate option based on the intended use of the LPG gas connection.</li>
+<li>DISTRICT AND LOCATION:
+  For "District," write the name of the district where your premises are located.For "Location," provide additional details such as the locality, area, or specific address where the gas connection is needed. This could include the name of the town or village, street name, landmark, or any other relevant information to pinpoint the location accurately.</li>
+<li>LPG Distribution company:
+ you should specify the name of the LPG distribution company from which you are seeking the new gas connection. This could include companies such as Indian Oil Corporation (Indane), Bharat Petroleum Corporation Limited (Bharat Gas), or Hindustan Petroleum Corporation Limited (HP Gas), depending on the options available in your area.</li>
+
+
+<p>Enter Distrubutor adress, pincode,email ID, phone number</p> 
+<li>APPILICANT DETAILS:
+<p>Enter</p>
+<p>Appilicant name, age, profession,no of family members,income per year,his phone numberand email ID</p> 
+
+  <p>Choose whether the working couple is yes or not
+And also whether used LPG earlier or not</p>
+
+<p>Enter appilicants adress with his pincode and also enter his office and residence phone number</p>
+
+<li>INFORMANT DETAILS:
+In the column of "Informant Details" on the New Gas Connection Application Form, you should provide information about the person or entity who is informing or providing the details for the application. This could include:
+</li>
+<p>1. Name: Write the full name of the person filling out the application form.</p>
+  <p>2. Contact Number: Provide a valid contact number where the informant can be reached for further communication related to the application.</p>
+    <p>3. Address: Write the complete postal address of the informant, including house number, street name, locality, city or town, district, state, and PIN code.</p>
+
+      <p>Ensure that the information provided in the informant details section is accurate and up-to-date to facilitate communication and processing of the new gas connection application.
+And also we should wrie the proof document and also it's number</p>
+
+<p>And finally the appilicant signature should be taken</p>
+</ol>
+    </div>
+    <div id=operation10 style="display: none;">
+      <h1>Required documents</h1>
+      <p>points
+      </p>
+      <img src="" alt="">
+      <h1>Steps to instructions</h1>
+      <p class="p1"></p>
+      <p class="p2"></p>
+    </div>
+    <div id=operation11 style="display: none;">
+      <h1>Required documents</h1>
+      <ol>
+        <li>Adhaar </li>
+        <li>Pan no or card</li>
+        <li>2 Photo Copies of Applicant</li>
+      </ol>
+      <h1>Form</h1>
+      <img src="images/IMG_20240208_115529 (1).jpg" alt="">
+      <img src="images/IMG_20240208_115734.jpg" alt="">
+      <h1>Steps to instructions</h1>
+      <ol>
+<p>Personal Information:</p>
+
+<li>Full Name: Write your full name exactly as it appears on your identification documents.
+  <li>Father's/Husband's Name: If applicable, provide the name of your father or husband.
+    <li>Date of Birth (DOB): Enter your date of birth in the format specified on the form (DD/MM/YYYY).
+      <li>Gender: Tick the appropriate box (Male/Female/Other).
+        <li>Marital Status: Indicate your marital status (Married/Single/Divorced/Widowed).
+          <li>Address Details:
+
+Permanent Address: Provide your permanent residential address, including details such as street address, city, state, and PIN code.
+Local Address (if different): If your local address differs from your permanent address, provide those details as well.
+Contact Information:</li>
+
+<li>Mobile Number: Enter your primary mobile number, including the country code if applicable.
+Email Address (if available): Provide your email address if you have one.</li>
+<li>Identification Documents:
+
+Choose one or more acceptable identification documents from the list provided (e.g., Aadhar Card, Passport, Driver's License).
+Enter the document number and its expiry date.</li>
+<li>Address Proof:
+
+Select one or more acceptable address proof documents from the list provided (e.g., Aadhar Card, Utility Bill, Bank Statement).
+Enter the document number and its expiry date.
+<li>Occupation Details:
+
+Occupation: Specify your occupation (e.g., Salaried, Self-employed, Student).
+Employer/Business Name: If employed or self-employed, provide the name of your employer or business.
+Office Address: Enter the address of your employer or business.</li>
+<li>Bank Account Details:
+
+Account Type: Choose the type of account you want to open (e.g., Savings Account, Current Account).
+Nomination Details (if applicable): If you wish to nominate someone, provide the nominee's details.
+Initial Deposit Amount: Specify the amount you wish to deposit to open the account.</li>
+<li>Signatures:
+
+Applicant's Signature: Sign the form in the designated space. Your signature confirms the accuracy of the information provided.
+Joint Applicant's Signature (if applicable): If opening a joint account, the joint applicant must also sign the form.
+Date:
+
+Write the current date next to your signature.</li>
+<li>Submission:
+
+Submit the completed form along with the required documents to the SBI branch where you wish to open the account.
+Make sure all information provided is accurate and matches the details on your identification documents. If you have any questions or need assistance, don't hesitate to ask the bank staff for help.
+</li>    
+</ol></div>
+    <div id=operation12 style="display: none;">
+      <h1>Required documents</h1>
+      <ol>
+        <li>Adhaar </li>
+        <li>Pan no or card</li>
+        <li>E-kyc</li>
+        <li>Applicant should be present at the time of changing details</li>
+      </ol>
+      <h1>Form</h1>
+      <img src="images/Req sb.png" alt="">
+      <h1>Steps to instructions</h1>
+      <ol>
+        <p>Write applicant name</p>
+        <p>Write another applicant name if it is a joint account</p>
+        <p>Account number of the applicant</p>
+        <p>Mobile number of the applicant</p>
+        <p>Tick the appropriate number from updating personal details</p>
+        <li>If you tick 1 then tick the type of kyc id that is to be updated that is any one of pan, Aadhar, Driving license, Passport, Voter id, Nega card then enter document number if any and attach an original document along with xerox</li>
+        <li>If you tick 2 then tick type of Address change that is any of permanent, correspondence or both 
+          Fill the address lines 1 for permanent, 2 for correspondence, 3 for both</li>
+         <p>And tick the document type you attach for Address change that is any of pan, Aadhar, Driving license, Passport, Voter ID, Nega card these are compulsory for permanent Address change</p>
+        <li>If you tick 3 then strike out any name which is not applicaple that is from father, mother, spouse name</li>
+        <li>If you tick 4 then it is for updating aadhar number in account number mentioned above for direct benefit transfer</li>
+        <li>If you tick 5 then enter your aadhar number to delete it's data from your account</li>
+        <li>If you tick 6 then enter pan card number</li>
+        <li>If you tick 7 then enter email id</li>
+        <li>If you tick 8 then you change title to that is addition of spouse for assets</li>
+        <li>If you tick 9 then you can change your name to another if there is an error in your name previously You need to submit  corresponding govt. Gazette notification(that is a form signed by any gazetted officer that can be mro, vro etc) or marriage certificate</li>
+        <li>If you tick 10 then you can change your mobile number attached to your bank account</li>
+         
+      </ol>
+    </div>
+    <div id=operation13 style="display: none;">
+      <h1>Required documents</h1>
+      <p>points
+      </p>
+      <img src="" alt="">
+      <h1>Steps to instructions</h1>
+      <p class="p1"></p>
+      <p class="p2"></p>
+    </div>
+    <div id=operation14 style="display: none;">
+      <h1>Required documents</h1>
+      <p>points
+      </p>
+      <img src="" alt="">
+      <h1>Steps to instructions</h1>
+      <p class="p1"></p>
+      <p class="p2"></p>
+    </div>
+    <div id=operation15 style="display: none;">
+      <h1>Required documents</h1>
+      <img src="images/redl.jpg" alt="">
+      <img src="images/redl.jpg" alt="">
+      <h1>Form</h1>
+      <img src="images/dl1.jpg" alt="">
+      <img src="images/DL2.jpg" alt="">
+      <img src="images/DL3.jpg" alt="">
+      <img src="images/DL4.jpg" alt="">
+      
+      
+    </div>
+    <div id=operation16 style="display: none;">
+      <h1>Required documents</h1>
+      <p>points
+      </p>
+      <img src="" alt="">
+      <h1>Steps to instructions</h1>
+      <p class="p1"></p>
+      <p class="p2"></p>
+    </div>
+    <div id=operation17 style="display: none;">
+      <h1>Required documents</h1>
+      <p>
+      </p>
+      <img src="" alt="">
+      <h1>Steps to instructions</h1>
+      <p class="p1"></p>
+      <p class="p2"></p>
+    </div>
+    <div id=operation18 style="display: none;">
+      <h1>Required documents</h1>
+      <ol>
+        <li>Adhaar Card</li>
+        <li>Ration Card or Address proof 3 current bill (or)gas bill(Or)pass port(or)House tax</li>
+        <li>10th Mark List</li>
+        <li>Transfer Certificate(with caste details)</li>
+        <li>Caste</li>
+      </ol>
+      <h1>Form</h1>
+      <img src="images/In cert caste1.jpg" alt="">
+      <img src="images/In Cert  caste2.jpg" alt="">
+      <h1>Steps to instructions</h1>
+     <ol>
+      <li>APPILICANT DETAILS:</li>
+        <p>Enter aadhar number,DoB appilicant name,relation and gender.</p>
+          <p>In relation,if the applicant is the son or daughter of the head of the household, you would write "Son" or "Daughter" respectively. If the applicant is the head of the household themselves, you could write "Self" or "Applicant."</p>
+      <li>PERMANENT ADDRESS:</li>
+        <p>In the address column of the secretariat on an Integrated Certificate, you should write the complete postal address of the secretariat where the certificate is being issued. This typically includes details such as the name of the secretariat, street address, city or town, district, state, and PIN code.
+      and for the remaining you have to enter your address</p>
+      <li>POSTAL DETAILS:</li>
+        <p>In the postal details column of an Integrated Certificate, you should write any relevant details related to the postal address, such as the PIN code, post office name, or any other information necessary for accurate postal delivery. This column may be used to provide additional details or clarifications regarding the postal address mentioned elsewhere on the certificate. Ensure to accurately fill in any required postal details to facilitate proper communication or correspondence.</p>
+      <li>CASTE CERTIFICATE DETAILS:</li>
+        <p>In the column of "Caste Claimed" on an Integrated Certificate, you should write the specific caste to which you belong or claim affiliation. This should be the caste for which you are seeking certification or recognition.In the column of "Caste Category," you should write the category to which your claimed caste belongs. This could include categories such as Scheduled Caste (SC), Scheduled Tribe (ST), Other Backward Class (OBC), or General (if your caste does not fall into any of the reserved categories).</p>
+          <p>In the column of "Purpose of Caste Certificate" on an Integrated Certificate, you should specify the reason or purpose for which you require the caste certificate. This could include purposes such as education, employment, government services, scholarships, welfare benefits, or any other official or legal requirement where proof of caste identity is necessary. Be specific and provide clear information about the intended use of the caste certificate.</p>
+      
+            <p>And finally the appilicant signature should be taken</p>
+     </ol>
+    </div>
+    <div id=operation19 style="display: none;">
+      <h1>Required documents</h1>
+      <ol>
+        <li>Adhaar card of Applicant</li>
+        <li>Ration Card or Pay Slip</li>
+        <li>10th Mark List</li>
+        <li>Transfer Certificate(with caste details)</li>
+        <li>Caste Certificate</li>
+        <li>Notary</li>
+      </ol>
+      <h1>Form</h1>
+      <img src="images/OBC1.jpg" alt="">
+      <img src="images/OBC2.jpg" alt="">
+      <img src="images/OBC3.jpg" alt="">
+      <h1>Steps to instructions</h1>
+      <ul>
+        
+          <li>1,2,3. fullname, gender, date of birth</li>
+            <li>4,5. write your complete postal and residential address, including your house number, street name, locality, city or town, district, state, and PIN code. Make sure the address is accurate and up-to-date </li>
+              <li> 5,6,7.  enter appilicants relegion,caste and sub caste</li>
+                <li>8. ticket mark the ' yes' if you have a valid  caste certificate</li>
+                  <p>Otherwise ' no'( validity of caste certificate must be of 5 years and for OBC 3 YEARS)</p>
+          <li> 9. check your education certificate whether it has caste or not
+            <li>10.Operation Group" may refer to the specific group or category of jobs for which you are seeking reservation based on your eligibility as an Other Backward Class candidate. It could include categories such as administrative, technical, clerical, managerial, or any other relevant classification within the civil posts and services under the Central Government of India.</li>
+              <li> 11. you should write the serial number corresponding to the caste of the applicant as listed in the Central List of OBCs. This serial number uniquely identifies the caste within the list of OBCs recognized by the Central Government of India. You would need to find the appropriate serial number for your caste in the official Central List of OBCs before filling out this column.</li>
+                <li>12,13,14. enter the appilicants mother, father, husband name</li>
+                  <li>15. choose who is the earning person in the family</li> 
+                    <p>15a,b. you should write the specific constitutional post or designation that you currently hold or are applying for. This could include positions such as President, Vice President, Prime Minister, Governor, Chief Justice, Minister, Member of Parliament, Member of Legislative Assembly, etc. Ensure that you accurately provide the title of the position or designation relevant to your application.</p>
+          <p>15c-i,ii. choose whether the service is state or central and  
+          Enter the designation of it</p>
+          <p>15c-iii. you should write the salary scale or pay grade associated with the position you currently hold or are applying for. This information typically includes the range of salary or wages offered for the particular job, which may vary based on factors such as experience, qualifications, and location. Make sure to accurately provide the scale of pay relevant to your application.</p>
+          <p>15c- iv,v. enter date of appointment and age at that time</p>
+            <p>G)enter annual income, and choose whether the tax is payed or not 
+          And also
+          you should indicate whether you or your family are covered under the Wealth Tax Act. If you are covered, you would select "YES" and provide relevant details as requested. If not covered, you would select "NO" and leave the details section blank. Be sure to provide accurate information based on your situation.</p>
+          <li>16. you should write the total number of family members residing with you. This typically includes details such as the number of dependents, including spouse, children, parents, and any other individuals who are financially dependent on you or are part of your household. Ensure to provide an accurate count of family members according to the instructions provided on the form.</li>
+            <li>17. enter the purpose of taking caste certificate</li>
+              <li> 18,19. enter ration and aadhar card number </li>
+            <p>And at last signature of the candidate should be taken</p>
+      </ul>
+    </div>
+    <div id=operation20 style="display: none;">
+      <h1>Required documents</h1>
+      <ol>
+        <li>Adhaar Number of parents</li>
+        <li>Medical record of birth</li>
+      </ol>
+      <h1>Form</h1>
+      <p>
+      </p>
+      <img src="images/Birth Certificate-CDMA_page-0001.jpg" alt="">
+      <h1>Steps to instructions</h1>
+      <p class="p1"></p>
+      <p class="p2"></p>
+    </div>
+    </div>
+    <footer>
+    <legend>Feedback</legend>
+    <textarea></textarea>
+    </footer>
+  </body>
+  <script src="fake.js"></script>
+</html>
